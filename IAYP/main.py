@@ -7,8 +7,8 @@ import pandas as pd
 
 
 def mail(receivers,NAME,ORB):
-    email = "aadityakharkiatest@gmail.com"
-    password = "pxduwpgyfmtvtzmj"
+    email = "Your Mail ID"
+    password = "Your Password"
     send_to_email = receivers
     subject = "IAYP Parent consent Form"
     message = f"Respected Parent,\n \nKindly find the parent consent form for {NAME} with ORB number {ORB}. \n\n You are request to fill the form and send it back hariomtripathi@welhamboys.org \n\nRegards,\nHariom Tripathi\n(Teacher)"
